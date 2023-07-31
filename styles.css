@@ -1,0 +1,166 @@
+:root{
+    --lividbrown:#542733;
+    --bouquet:#b46ea1;
+    --careyspink:#d4a5b2;
+    --delrio:#b18e8b;
+    --prim:#f1e4e9;
+    --valencia: #d6483d;
+}
+body{
+    background-color: var(--careyspink);
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: var(--lividbrown);
+    
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+
+}
+.hk{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    
+}
+
+.educa,.exp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+fieldset{
+    background-color: var(--bouquet);
+    border-radius: 10px;
+    box-shadow:0px 5px 15px 0px rgba(102,102,102,0.54);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.sombra{
+    box-shadow: 0px 5px 15px 0px rgba(102,102,102,0.54);
+    background-color: var(--prim);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.barrafondo{
+    background-color: rgb(234, 25, 70);
+    border-radius: 35px;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.barra a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+
+.barra a:hover{
+    background-color: rgb(255, 85, 127);
+    font-size: 26px;
+    color: #370028;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+.red a{
+    color: #370028;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.red a:hover{
+    background-color: #ff89e0;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    transition: 0.7s;
+    font-size: 23px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.boton{
+    background-color: rgb(255, 51, 132);
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    border: none;
+}
+.boton:hover{
+    background-color: rgb(152, 30, 79);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.input-text{
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    resize: none;
+}
+
+.formulario{
+    background-color: var(--bouquet);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario fieldset{
+    border: none;
+}
+
+.campo{
+    margin-bottom: 10px;
+}
+
+.campo label{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.campo textarea{
+    height: 20px;
+}
+
+.input-text{
+    width: 80%;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
